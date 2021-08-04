@@ -64,7 +64,7 @@ You can perform all commands with root user.
   ```
 * Enable and Start kubelet service
   ```
-  systemctl enable --now kubelet
+  sudo systemctl enable --now kubelet
   ```
 
 ### Perform on master node
@@ -185,7 +185,7 @@ OR
   ```
 * Deploy Network: 
   ```
-  kubectl --kubeconfig=/etc/kubernetes/admin.conf create -f https://docs.projectcalico.org/v3.14/manifests/calico.yaml
+  sudo kubectl --kubeconfig=/etc/kubernetes/admin.conf create -f https://docs.projectcalico.org/v3.14/manifests/calico.yaml
   ```
 
 * After deploying the network:
