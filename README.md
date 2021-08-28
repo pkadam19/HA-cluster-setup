@@ -1,6 +1,11 @@
 # HA-cluster-setup
 HA cluster setup using HAProxy
 
+### What is HAproxy:
+High Availability Proxy (HAProxy) is high performance and open source TCP/HTTP load balancer. It is mostly used to improve the performance and reliability of applications by distributing the workload across the underlying server. 
+### Role of HAPorxy here:
+We are using HAProxy to balance the load between the API master endpoints.
+
 
 ### Pre-requisities
 
