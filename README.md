@@ -16,9 +16,9 @@ HA cluster setup using HAProxy
 Update `/etc/hosts` file with below
   ```
   192.168.16.200	loadbalancer.example.com	loadbalancer
-  192.168.16.126	master1.example.com	master1
-  192.168.16.87	master2.example.com	master2
-  192.168.16.88	master3.example.com	master3
+  192.168.16.101	master1.example.com	master1
+  192.168.16.102	master2.example.com	master2
+  192.168.16.103	master3.example.com	master3
 ```
 
 ### Setup LoadBalancer
